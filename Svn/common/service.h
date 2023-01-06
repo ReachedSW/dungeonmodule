@@ -1,0 +1,1 @@
+#define NEW_DUNGEON_STAGE_SYSTEM
