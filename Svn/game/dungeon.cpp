@@ -8,7 +8,8 @@ struct FSetDungeonStage
 		if (ent->IsType(ENTITY_CHARACTER))
 		{
 			LPCHARACTER ch = (LPCHARACTER)ent;
-			ch->SetDungeonStage(m_bStage);
+			if (ch)
+				ch->SetDungeonStage(m_bStage);
 		}
 	}
 
